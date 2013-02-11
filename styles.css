@@ -1,0 +1,128 @@
+body {
+  font-family: 'proxima-nova', sans-serif;
+  font-weight: 400;
+  color: #4d4d4d;
+  padding: 0px;
+  margin-top: 0px;
+}
+
+aside {
+	width: 90px;
+	height: 90px;
+	border-radius: 100px;
+	margin-top: 40px;
+}
+
+aside#logo, aside#logo div a {
+	background-color: red;
+}
+
+
+aside#logo{
+	width: 78px;
+	height: 78px;
+	border: 5px white solid;
+	background-color: red;
+	border-radius: 50%;
+}
+aside#logo div {
+	background-image: url(//d1jcp5e5r52ocf.cloudfront.net/bolt_large.png) center center no-repeat;
+}
+
+nav#sidebar {
+	position: fixed;
+	min-width: 23%;
+	border-right: 1px #BCBDAC solid;
+	height: 100%;
+	padding-left: 2%;
+	background-color: white;
+	z-index: 9999;
+}
+
+div#main {
+	margin-left: 25.3%;
+}
+
+ul {
+	list-style: none;
+	padding: 0px;
+}
+
+li a {
+	border: 4px white solid;
+	line-height: 50px;
+	color: #999;
+	padding: 5px;
+}
+
+li a:hover {
+	border-color: red;
+	border-radius: 20px;
+}
+a {
+	text-decoration: none;
+	color: #4d4d4d;
+}
+
+header#begin {
+	padding: 40px 0px 40px 40px;
+	z-index: -999;
+}
+
+article#main-text {
+	padding: 40px 0px 40px 40px;
+	border-top: 1px #BCBDAC solid;
+}
+
+p {
+	max-width: 500px;
+}
+
+blockquote {
+	border-left: 5px red solid;
+	max-width: 440px;
+	padding-left: 18px;
+}
+blockquote, p {
+
+	line-height: 25px;
+
+}
+
+/* Fonts */
+h1 {
+	font-size: 25px;
+}
+
+h2 {
+	font-size: 14px;
+	font-weight: bold;
+} 
+
+h3 {
+	font-size: 16px;
+}
+
+ul li {
+	font-size: 14px;
+}
+
+li a {
+	color: #999;
+}
+
+header#begin {
+	font-family: freight-sans-pro, sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+
+.article-title {
+	font-size: 25px;
+}
+
+
+
+
+
